@@ -39,7 +39,7 @@ var (
 )
 
 const (
-	SessionContextKey = "django_session.context_key"
+	SessionContextKey = "github.com/fdelbos/django-session.context_key"
 )
 
 func (ds DjangoSession) Filter(cookieName string, dest interface{}) func(http.Handler) http.Handler {
